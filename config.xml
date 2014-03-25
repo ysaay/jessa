@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0" id="OUTFIT OF THE DAY">
+  <author href=""
+          rim:copyright="">JESSA IBO</author>
+
+  <name>OUTFIT OF THE DAY</name>
+
+  <feature id="blackberry.system"/>
+  <feature id="blackberry.invoke.card" />
+  <feature id="blackberry.ui.toast"/>
+  <feature id="blackberry.ui.dialog"/>
+  
+  <feature id="blackberry.app">
+    <param name="orientation" value="portrait" />
+	<param name="formControl" value="disable" />
+  </feature>
+
+  <content src="index.html" />
+
+  <icon src="images/icon-150.png"/>
+  
+  
+<access uri="*" subdomains="true"/>
+
+ 
+  <rim:permissions>
+  <rim:permit>access_shared</rim:permit>
+  </rim:permissions>
+
+</widget>
